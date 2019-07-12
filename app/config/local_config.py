@@ -3,8 +3,8 @@ from .base_config import BaseConfig
 
 class Config(BaseConfig):
 
-    POSTGRES_USER = 'postgres'
-    POSTGRES_PASSWORD = 'root'
+    POSTGRES_USER = ''
+    POSTGRES_PASSWORD = ''
     POSTGRES_HOST = 'localhost'
     POSTGRES_DATABASE = 'shorten_url'
     # SQLALCHEMY_DATABASE_URI = "postgresql://root:root@localhost/token_problem"
