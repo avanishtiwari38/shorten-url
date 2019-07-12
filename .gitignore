@@ -1,0 +1,6 @@
+*.idea
+*.pyc
+*config/__init__.py
+*config/dev.py
+*config/production.py
+*migration
